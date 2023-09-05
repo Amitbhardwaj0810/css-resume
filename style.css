@@ -5,6 +5,10 @@ body{
     height: 100vh;
     color: black;
 }
+h2{
+    font-family: scprit MT, cursive;
+    margin-top: 25px;
+}
 .container{
     display: grid;
     width: 100%; 
@@ -116,7 +120,7 @@ padding-bottom: 10px;
 }
 }
 h2{
-    font-family: cursive;
+    font-family: scprit MT, cursive;
     margin-top: 25px;
 }
 
