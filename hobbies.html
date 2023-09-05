@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobbies</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        background-color: rgb(255, 13, 13);
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+      }
+      #h1 {
+        font-family: "Times New Roman", Times, serif;
+      }
+      #img1 {
+        border-radius: 3%;
+        margin: 20px;
+      }
+      .div1 {
+        font-size: larger;
+      }
+      .div2 {
+        margin-right: 30px;
+      }
+      @media only screen and (max-width: 600px) {
+        .container {
+          display: block;
+        }
+        .div1 > #h1 {
+          text-align: center;
+          margin-bottom: 30px;
+        }
+        .div1 > .li {
+          margin-top: 40px;
+        }
+        #img1 {
+          margin-top: 40px;
+          height: 150px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <h1 id="h1">MY HOBBIES</h1>
+        <ul class="li">
+          <li>Learning NEW things</li>
+          <li>Photography</li>
+          <li>Playing Football and Badminton</li>
+        </ul>
+      </div>
+      <div class="div2">
+        <img
+          id="img1"
+          src="./assets/images/hobbies.jpg"
+          height="300px"
+          alt="hobbies image"
+        />
+      </div>
+    </div>
+  </body>
+</html>

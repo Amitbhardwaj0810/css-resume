@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <style>
+      body {
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 200px 600px;
+      }
+      #contact {
+        font-style: oblique;
+      }
+      .div1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-area: 1/1/2/3;
+        color: purple;
+        margin-top: 0%;
+        padding: 0px;
+        padding-top: 0px;
+        font-family: "Sacramento", cursive;
+        font-size: 50px;
+      }
+      .div2 {
+        color: red;
+        font-size: larger;
+        padding: 20px;
+        padding-top: 0%;
+        padding-bottom: 10px;
+      }
+      .div3 {
+        padding: 20px;
+      }
+      .div3 > img {
+        border-radius: 15px;
+      }
+      @media only screen and (max-width: 700px) {
+        .container {
+          display: block;
+        }
+        .div1 {
+          margin-top: 0px;
+          margin-bottom: 10px;
+
+          padding-top: 30px;
+          font-size: 25px;
+          text-align: center;
+        }
+        .div2 {
+          font-size: 13px;
+          margin-bottom: 20px;
+        }
+
+        .div3 {
+          display: flex;
+          justify-content: center;
+        }
+        .div3 > img {
+          height: 200px;
+          border-radius: 8px;
+        }
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <h2>Let's make ideas into reality together.</h2>
+      </div>
+      <div class="div2">
+        <h1 id="contact">Contact Me</h1>
+        <p>Mo: +918690930811</p>
+        <p>Email: amit810bhardwaj@gmail.com</p>
+        <p>Address:</p>
+        <p>
+          Pali<br />
+          RJ<br />
+          India <br />
+        </p>
+      </div>
+      <div class="div3">
+        <img
+          id="img"
+          src="./assets/images/contactme.jpg"
+          height="350px"
+        />
+      </div>
+    </div>
+  </body>
+</html>
