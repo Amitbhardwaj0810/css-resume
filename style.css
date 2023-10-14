@@ -107,13 +107,13 @@ padding-bottom: 10px;
     }
   } 
 
-  @media only screen and (min-width: 800px) and (max-width: 1000px) {
+ @media (800px <= width <= 1000px) {
     .container{
        grid-template-rows: 160px 380px 510px 150px;
     }
 
   }
-  @media only screen and (min-width: 1000px){
+  @media (width >= 1000px){
   .container{
    grid-template-rows: 160px 380px 450px 150px;
 }
