@@ -24,7 +24,6 @@ h2{
     background-color: #2760b6;
     padding: 20px;
 } 
-
 h1{
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
@@ -119,10 +118,7 @@ padding-bottom: 10px;
    grid-template-rows: 160px 380px 450px 150px;
 }
 }
-h2{
-    font-family: scprit MT, cursive;
-    margin-top: 25px;
-}
+
 
 
 
