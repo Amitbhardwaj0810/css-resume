@@ -3,6 +3,7 @@ body{
     padding: 0px;
     background-color: lightgray;
     height: 100vh;
+    min-height: 100%;
     color: black;
 }
 h2{
